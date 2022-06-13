@@ -1,2 +1,7 @@
 Python/.idea
 Matlab/*.asv
+
+.idea/
+EOSA_Metaheuristic
+EOSA Implement/__pycache__
+EOSA Implement/settings/__pycache__

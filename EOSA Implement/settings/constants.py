@@ -1,4 +1,7 @@
-from .imports import *
+import numpy as np
+from numpy import random
+from .functions import *
+
 
 """
 Constants and values describing rates and variables
@@ -56,4 +59,12 @@ modelrates = {
     "hospital_treatment_rate": hr,
     "vaccination_response_rate": vrr,
     "quarantine_rate": qrr
+}
+
+root_paras = {
+    "problem_size": 100,
+    "domain_range": [0, 1],
+    "print_train": True,
+    "objective_func": cost_function,
+    "modelrates": modelrates,
 }
